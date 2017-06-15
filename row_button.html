@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background: linear-gradient(to right,#FF00,#001C20);
+		}
+
+		.container{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			height: 100%;
+			justify-content: flex-start;
+		}
+		.main_button{
+		margin: 0;
+		border: 0;
+		border-bottom:2px solid darkgreen;
+		background-color: #346F23;
+		padding: 15px;
+		width: 33.3333%;
+		color: white;
+		font-size: 1.2rem;
+		transition: background-color .4s ease-in,color .4s ease-in;
+	}
+
+	.button_radius_left{
+		/*border-radius: 8px 0 8px 0;*/
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+
+	.button_radius_right{
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+	.main_button:hover{
+		cursor: pointer;
+		color: #346F23;
+		background-color: white;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+			<input type="text-box" name="Enter Here">
+			<button class="main_button button_radius_left"> left</button>
+			<button class="main_button"> middle</button>
+			<button class="main_button button_radius_right"> right</button>
+	</div>
+</body>
+</html>
