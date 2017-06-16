@@ -47,16 +47,47 @@
 		color: #346F23;
 		background-color: white;
 	}
+	.text_container{
+		display: flex;
+		flex-direction: column;
+		-ms-align-items: ;
+		align-items: center;
+	}
+	.textbox
+	{
+		border-radius: 4px;
+		background-color: #A2A2A2;
+		padding: 8px;
+		width: 40%;
+	}
 
+	input[type="text"]{
+		width:100%;
+		padding: 11px 20px;
+		margin-bottom: 13px;
+		margin-top: 11px;
+	}
 
 	</style>
 </head>
 <body>
+<h3>The row button demo</h3>
+<br>
+<br>
 	<div class="container">
-			<input type="text-box" name="Enter Here">
+			
 			<button class="main_button button_radius_left"> left</button>
 			<button class="main_button"> middle</button>
 			<button class="main_button button_radius_right"> right</button>
+	</div>
+	<br>
+	<br>
+	<h3>This is the text box</h3>
+	<div class="text_container">
+		<div class="textbox">
+				<input type="text" name="Enter Here" placeholder="Enter here">
+				<input type="text" name="Enter Here" placeholder="Enter here">
+		</div>
 	</div>
 </body>
 </html>
