@@ -1,103 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Login here</title>
-	<style type="text/css">
-	*{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-	.main_container{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-
-	}
-	.container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 80%;
-		
-	}	
-	.login_container{
-		background: linear-gradient(to left,#B4A7FE,#ECF2FE);
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		padding: 12px;
-		margin: 34px;
-		/*align-items: center;*/
-	}
-	input[type="text"]{
-		padding: 12px;
-		margin: 0;
-		margin-bottom: 8px;
-	}
-	/*lable{
-		padding: 9px;
-		font-size: 3px;
-	}*/
-	.button_container{
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		margin-top: 50px;
-		margin-bottom: 34px;
-	}
-	.button_style{
-		width: 100%;
-		padding: 22px;
-		margin: 0;
-		border: 0;
-		color: white;
-		font-size: 16px;
-		background-color: #5852D6;
-		border-bottom: 2px solid-green;
-		transition: background-color .5s,ease-in;
-	}
-	.button_style_left{
-		border-bottom-left-radius: 9px;
-		border-top-left-radius:9px; 
-	}
-	.button_style_right{
-		border-bottom-right-radius: 9px;
-		border-top-right-radius:9px; 
-	}
-
-	.button_style:hover{
-		color: #5852D6;
-		background-color:white;
-	}
-	input,textarea{
-		background-color: #DFDCFF;
-		border-style: none;
-	}
-	</style>
+    <meta charset="UTF-8">
+    <title>Login here</title>
+	<link rel="stylesheet" type="text/css" href="styl.css">    
 </head>
+
 <body>
-<div class="main_container">
-	<div class="container">
-		
-			<div class="login_container">
-			<div>
-				<h3 align="center"> Login</h3>
-			</div>
-				<label>Username</label>
-				<input type="text" name="username">
-				<label>Password</label>
-				<input type="text" name="username">
-
-			<div class="button_container">
-				<button class="button_style button_style_left">Submit</button>
-				<button class="button_style button_style_right">Reset</button>
-			</div>
-			</div>
-
-			
-	</div>
-</div>
+    <div class="main_container">
+        <div class="container">
+            <div class="login_container">
+                <div>
+                    <h3 align="center"> Login</h3>
+                </div>
+                <label>Username</label>
+                <input type="text" name="username">
+                <label>Password</label>
+                <input type="text" name="username">
+                <div class="button_container">
+                    <button class="button_style button_style_left">Submit</button>
+                    <button class="button_style button_style_right">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
