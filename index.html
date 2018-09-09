@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Side Bar</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="HeaderWraper">
+        <div class="header">
+            <ul>
+                <li>
+                    <a class="link1" href="#">LINK 1</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="side-nav-wraper">
+        <div class="side-nav">
+            <h1>This is Side Navigation</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi eligendi tempore possimus consequuntur amet quis eius ipsam nam ratione eos culpa ipsa omnis porro quisquam veniam repellat, dolore fugit vero!</h4>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi eligendi tempore possimus consequuntur amet quis eius ipsam nam ratione eos culpa ipsa omnis porro quisquam veniam repellat, dolore fugit vero!</h4>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi eligendi tempore possimus consequuntur amet quis eius ipsam nam ratione eos culpa ipsa omnis porro quisquam veniam repellat, dolore fugit vero!</h4>
+        </div>
+    </div>
+    <script>
+        function sideVisibility() {
+            // console.log("Side visibility is clicked");
+            document.querySelector('.side-nav').classList.toggle('side-bar-visible');
+        }
+
+        document.querySelector(".link1").addEventListener('click', sideVisibility);
+    </script>
+</body>
+
+</html>

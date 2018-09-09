@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    
+}
+
+ul li {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    background-color: seagreen;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 60px;
+    color : white;
+    /* background-color: aqua; */
+    /* padding: .5rem; */
+}
+
+.side-nav {
+    /* border: 1px solid red; */
+    position: fixed;
+    transform: translateX(200%);
+    transition: transform .2s ease-in;
+    height: calc(100vh - 60px);
+    width: 50%;
+}
+
+.side-bar-visible {
+    /* left: 0; */
+    position: absolute;
+    transform: translate(100%);
+}
